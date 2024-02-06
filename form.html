@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
+  <body>
+    <!--************************************
+         HEADER
+    *************************************-->
+    <header>
+      <div class="container">
+        <div class="left">
+          <img src="assets/logo.svg" alt="Logo" />
+        </div>
+        <div class="middle">
+          <ul>
+            <li class="active">Books</li>
+            <li>Author</li>
+            <li>What to read?</li>
+            <li>Gift ideas</li>
+            <li>About us</li>
+          </ul>
+        </div>
+        <div class="right">
+          <img src="assets/icons.svg" alt="icons" />
+          <button>Login</button>
+        </div>
+      </div>
+    </header>
+    <!--************************************
+        MAIN CONTENT
+    *************************************-->
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="content">
+            <div class="name">
+              <h2 style="color: white">REGISTER YOUR BOOK</h2>
+            </div>
+            <form action="/..">
+              <fieldset>
+                <legend>Book Details</legend>
+                <div class="field">
+                  <label for="name">Title</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp"
+                    autofocus
+                    required
+                    maxlength="65"
+                  />
+                </div>
+                <div class="field">
+                  <label for="name">Genre</label>
+                  <input
+                    type="text"
+                    name="genre"
+                    id="genre"
+                    placeholder="Your book genre here. E.g. Fantasy"
+                    autofocus
+                    required
+                    maxlength="65"
+                  />
+                </div>
+                <div class="field">
+                  <label for="author">Author</label>
+                  <input
+                    type="text"
+                    name="author"
+                    id="author"
+                    placeholder="Your book author here. E.g. J. K. Rowling"
+                  />
+                </div>
+                <div class="field">
+                  <label for="publisher">Publisher</label>
+                  <input
+                    type="text"
+                    name="publisher"
+                    id="publisher"
+                    placeholder="Publisher of the book. E.g. Pustaka Melang"
+                  />
+                </div>
+                <div class="field">
+                  <label for="year">Year Published</label>
+                  <input
+                    type="year"
+                    name="year"
+                    id="year"
+                    placeholder="1994"
+                    maxlength="4"
+                  />
+                </div>
+                <div class="field1">
+                  <label for="email">Availability</label>
+                  <input type="radio" id="age1" name="age" value="30" />
+                  <label1 for="age1">Online</label1><br />
+                  <input type="radio" id="age2" name="age" value="60" />
+                  <label1 for="age2">In Store</label1><br />
+                  <input type="radio" id="age2" name="age" value="60" />
+                  <label1 for="age2">Online & In store</label1><br />
+                </div>
+                <div class="field">
+                  <label for="page">Pages</label>
+                  <input
+                    type="number"
+                    name="page"
+                    id="page"
+                    placeholder="514"
+                  />
+                </div>
+                <div class="field">
+                  <label for="lang">Language</label>
+                  <input
+                    type="text"
+                    name="lang"
+                    id="lang"
+                    placeholder="Language used in the book. E.g. English"
+                  />
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Registree Details</legend>
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your name. E.g. Lannah Yeon"
+                    autofocus
+                    required
+                    maxlength="65"
+                    tabindex="1"
+                  />
+                </div>
+                <div class="field">
+                  <label for="name">Email</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Your email. E.g. l.yeon@email.com"
+                    autofocus
+                    required
+                    maxlength="65"
+                  />
+                </div>
+                <div class="field">
+                  <label for="name">Date Book & Time</label>
+                  <input
+                    type="datetime-local"
+                    name="bookingTime"
+                    id="bookingTime"
+                    placeholder="e.g. 2012-09-06 12:14"
+                  />
+                </div>
+              </fieldset>
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  name="additionalOption"
+                  id="additionalOption"
+                />
+                <label for="additionalOption"
+                  >I hereby agree to follow all rules and confirmed that all
+                  details are accurate</label
+                >
+              </div>
+              <button>Save Your Book</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--************************************
+        FOOTER
+     *************************************-->
+    <footer>
+      <div class="container">
+        <div class="top">
+          <img src="assets/logo.svg" alt="logo" />
+          <img src="assets/socials.svg" alt="socials" />
+        </div>
+        <div class="bottom">
+          <div>
+            <span>Term and condition</span>
+            <span>Privacy policy</span>
+          </div>
+          <div>
+            <span>68167816876293</span>
+            <span>hello@mail.com</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
